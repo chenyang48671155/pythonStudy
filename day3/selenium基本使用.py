@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@文件        :selenium基本使用.py
+@说明        :
+@时间        :2024/09/24 16:55:04
+@作者        :chenyang
+@版本        :1.0
+'''
+
+
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
