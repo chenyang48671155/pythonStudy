@@ -1,0 +1,10 @@
+GET https://www.baidu.com/ HTTP 1.1
+###
+
+
+PUT  https://www.baidu.com/ HTTP 1.1
+
+
+###
+
+curl --request PUT --url https://www.baidu.com/%20HTTP%201.1 --header 'user-agent: vscode-restclient'
