@@ -22,6 +22,8 @@ driver.fullscreen_window()
 username = "standard_user"
 password = "secret_sauce"
 login_url = "https://www.saucedemo.com/"
+
+# time.sleep(5)
 driver.get(login_url)
 
 username_field = driver.find_element(By.ID, value="user-name")
@@ -35,4 +37,3 @@ login_button = driver.find_element(By.ID, value="login-button")
 
 login_button.click()
 
-time.sleep(5)
